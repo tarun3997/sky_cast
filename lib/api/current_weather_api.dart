@@ -4,7 +4,7 @@ import 'package:sky_cast/model/day_and_3_hour_weather_model.dart';
 
 class WeatherApi {
   final Dio dio = Dio();
-  final String apiKey = "cbec3f9f25a81838bcbdfcba21799aa8";
+  final String apiKey = "";
 
   Future<WeatherResponse?> currentWeather(double lat, double lon) async {
     try {
